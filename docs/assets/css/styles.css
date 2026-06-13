@@ -184,6 +184,22 @@ footer{
     background:#f4f6f9;
 }
 
+.demo{
+    margin-top:30px;
+    text-align:center;
+}
+
+.demo h2{
+    margin-bottom:20px;
+}
+
+.demo-gif{
+    width:100%;
+    max-width:760px;
+    border-radius:16px;
+    box-shadow:0 20px 30px rgba(0,0,0,.12);
+}
+
 .profile{
     display:flex;
     gap:20px;
