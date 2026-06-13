@@ -13,7 +13,7 @@ GitHub Profile Explorer — это веб-приложение для поиск
 * Темная и светлая тема
 * Счетчик посещений
 * Хранение данных через LocalStorage
-
+* Гифка проекта находится здеся - https://giphy.com/gifs/ZTLvjFRhr3lKxpXgyK
 ## Стек технологий
 
 ### Frontend
@@ -44,7 +44,7 @@ git clone https://github.com/larx66/PM02.git
 
 GitHub Pages:
 
-https://github.com/larx66/PM02
+https://larx66.github.io/PM02/
 
 ## Исходный проект
 
