@@ -1,0 +1,103 @@
+
+<body>
+
+<header>
+    <div>
+        <span class="brand">
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                 alt="GitHub Logo">
+            <span><b>GitHub</b> Profile Explorer</span>
+        </span>
+
+        <button id="themeToggle">
+            🌙 Темная тема
+        </button>
+    </div>
+</header>
+
+<main>
+
+    <section id="hero">
+        <h1>GitHub Profile Explorer</h1>
+
+        <p>
+            Веб-приложение для поиска пользователей GitHub,
+            сохранения избранных профилей и персонализации
+            интерфейса.
+        </p>
+    </section>
+
+    <section id="comunidade">
+
+        <h2>Поиск профилей</h2>
+
+        <p>
+            Введите имя пользователя GitHub и откройте
+            его профиль в новой вкладке.
+        </p>
+        <div id="profileCard"></div>
+
+        <form id="searchForm">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Введите GitHub username"
+                minlength="3"
+                maxlength="39"
+            >
+
+            <button type="submit" id="searchButton">
+                <span>Открыть профиль</span>
+            </button>
+
+        </form>
+
+        <div id="visitCounter">
+            Посещений сайта:
+            <span id="counter">0</span>
+        </div>
+
+        <div id="favoritesSection">
+
+            <h3>Избранные профили</h3>
+
+            <button id="saveProfile">
+                ⭐ Добавить профиль
+            </button>
+
+            <ul id="favoritesList"></ul>
+
+        </div>
+
+    </section>
+
+    <section id="features">
+
+        <h2>Функциональные возможности</h2>
+
+        <ul>
+            <li>Поиск GitHub-пользователей</li>
+            <li>Переход к профилю пользователя</li>
+            <li>Темная и светлая тема</li>
+            <li>Счетчик посещений</li>
+            <li>Избранные профили</li>
+            <li>Хранение данных через LocalStorage</li>
+        </ul>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>
+        GitHub Profile Explorer © 2026
+    </p>
+</footer>
+
+<script src="assets/js/scripts.js"></script>
+
+</body>
+<link rel="stylesheet" href="assets/css/styles.css">
+
+
